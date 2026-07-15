@@ -1,11 +1,11 @@
 
-const session = process.env.SESSION || '';
+const session = process.env.SESSION || 'BLACK-MD:~114D264A';
 const appname = process.env.APP_NAME || '';
 const herokuapi = process.env.HEROKU_API;
 const botname = process.env.BOTNAME || '𝐁𝐋𝐀𝐂𝐊-𝐌𝐃';
 const author = process.env.STICKER_AUTHOR || 'botto';
 const packname = process.env.STICKER_PACKNAME || 'skipper';
-const dev = process.env.DEV || '254114283550,254105309571';
+const dev = process.env.DEV || '254743540296';
 const owner = dev.split(",");
 const bad = process.env.BAD_WORD || 'fuck,umbwa,kuma,pussy,slut,bitch,cock,stupid';
 const admin = process.env.ADMIN_MSG || '𝗖𝗼𝗺𝗺𝗮𝗻𝗱 𝗿𝗲𝘀𝗲𝗿𝘃𝗲𝗱 𝗳𝗼𝗿 𝗔𝗱𝗺𝗶𝗻𝘀!';
